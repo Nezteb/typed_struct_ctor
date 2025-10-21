@@ -45,8 +45,10 @@ defmodule TypedStructCtor.MixProject do
       {:dialyxir, "~> 1.3", only: [:dev, :test], runtime: false},
       {:ecto, "~> 3.10"},
       {:ex_doc, "~> 0.30", only: :dev},
-      {:typedstruct, "~> 0.5.2"},
-      {:typed_struct_ecto_changeset, "~> 1.0.0"}
+      # {:typedstruct, "~> 0.5.2"},
+      {:typedstruct, git: "https://github.com/Nezteb/typedstruct.git", branch: "main"},
+      # {:typed_struct_ecto_changeset, "~> 1.0.0"},
+      {:typed_struct_ecto_changeset, git: "https://github.com/Nezteb/typed_struct_ecto_changeset.git", branch: "master"}
     ]
   end
 end

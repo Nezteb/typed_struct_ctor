@@ -14,6 +14,6 @@
   "makeup_erlang": {:hex, :makeup_erlang, "0.1.2", "ad87296a092a46e03b7e9b0be7631ddcf64c790fa68a9ef5323b6cbb36affc72", [:mix], [{:makeup, "~> 1.0", [hex: :makeup, repo: "hexpm", optional: false]}], "hexpm", "f3f5a1ca93ce6e092d92b6d9c049bcda58a3b617a8d888f8e7231c85630e8108"},
   "nimble_parsec": {:hex, :nimble_parsec, "1.4.0", "51f9b613ea62cfa97b25ccc2c1b4216e81df970acd8e16e8d1bdc58fef21370d", [:mix], [], "hexpm", "9c565862810fb383e9838c1dd2d7d2c437b3d13b267414ba6af33e50d2d1cf28"},
   "telemetry": {:hex, :telemetry, "1.2.1", "68fdfe8d8f05a8428483a97d7aab2f268aaff24b49e0f599faa091f1d4e7f61c", [:rebar3], [], "hexpm", "dad9ce9d8effc621708f99eac538ef1cbe05d6a874dd741de2e689c47feafed5"},
-  "typed_struct_ecto_changeset": {:hex, :typed_struct_ecto_changeset, "1.0.0", "40b6946074eabef74b44a6c55c79bbbcfda1abff9f82bd6fcbb738931937fa8f", [:mix], [], "hexpm", "9dccc15467402a75749907b7d07441638e92f45a2460cb068f0269d82bbc7a4e"},
-  "typedstruct": {:hex, :typedstruct, "0.5.2", "a317be3ddfd020da09e1af8418b2653449541836eb5ff23bfdc642a5a4adcc59", [:make, :mix], [], "hexpm", "f9343bc65be73a550194e509c3110be966cb005bb7cba41614f29052e5aa408d"},
+  "typed_struct_ecto_changeset": {:git, "https://github.com/Nezteb/typed_struct_ecto_changeset.git", "70a1d08eb11039a6f3c64064b58edd2feda38e3a", [branch: "master"]},
+  "typedstruct": {:git, "https://github.com/Nezteb/typedstruct.git", "9c0bfd15731e17b3398cf23592df8a7f3a3f2f76", [branch: "main"]},
 }
